@@ -1,0 +1,115 @@
+body {
+    background-color:rgb(31, 29, 29);
+}
+a:visited{
+    text-decoration:none;
+    color:inherit;
+}
+a:link{
+    text-decoration:none;
+}
+.first {
+    list-style-type: none;
+    margin: 0%;
+    margin-left:-2%;
+    padding: 0%;
+    padding-left:2%;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    top:0%;
+    width:100%;
+}
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.02% 1%;
+    text-decoration: none;
+}
+li{
+    float:right;
+}
+.first li:hover:not(#active){
+    background-color:rgba(121, 118, 118, 0.719);
+}
+#active{
+    background-color:rgb(58, 58, 58);
+}
+#two{
+    padding-right:2.6%;
+}
+.family{
+    background-image:url("./picture/family.jpg");
+    min-height:50vw;
+    margin-left:-0.53%;
+    margin-right:-0.6%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity:0.6;
+}
+.pic{
+    width:50vw;
+    height:35vw;
+    margin-left:25%;
+    margin-top:25%;
+}
+#mom{
+    margin-top:15%;
+    margin-left:12.5%;
+    width:60vw;
+}
+#mom .middle{
+    margin-left:30%;
+}
+.middle{
+    opacity:0;
+    transition:0.2s ease;
+    position:absolute;
+    font-size:3vw;
+    text-align:center;
+    margin-left:38%;
+    margin-top:-20%;
+}
+.text{
+    color:white;
+    font-size:3vw;
+}
+#brother{
+    margin-bottom:5.5%;
+}
+#me .middle{
+    margin-left:40%;
+}
+#dad:hover .pic{
+    opacity:0.5;
+}
+#dad:hover .middle{
+    opacity:1;
+}
+#mom:hover .pic{
+    opacity:0.5;
+}
+#mom:hover .middle{
+    opacity:1;
+}
+#bro:hover .pic{
+    opacity:0.5;
+}
+#bro:hover .middle{
+    opacity:1;
+}
+#brother:hover .pic{
+    opacity:0.5;
+}
+#brother:hover .middle{
+    opacity:1;
+}
+#me:hover .pic{
+    opacity:0.5;
+}
+#me:hover .middle{
+    opacity:1;
+}

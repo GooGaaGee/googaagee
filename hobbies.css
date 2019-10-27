@@ -1,0 +1,117 @@
+body {
+    background-color:rgb(31, 29, 29);
+    background-image: linear-gradient(rgb(31, 29, 29), rgb(114, 114, 114),rgb(70, 70, 70));
+}
+a:visited{
+    text-decoration:none;
+    color:inherit;
+}
+a:link{
+    text-decoration:none;
+}
+.first {
+    list-style-type: none;
+    margin: 0%;
+    margin-left:-2%;
+    padding: 0%;
+    padding-left:2%;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    top:0%;
+    width:100%;
+}
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.02% 1%;
+    text-decoration: none;
+}
+li{
+    float:right;
+}
+li:hover:not(#active){
+    background-color:rgba(121, 118, 118, 0.719);
+}
+#active{
+    background-color:rgb(58, 58, 58);
+}
+#two{
+    padding-right:2.6%;
+}
+.hobbies{
+    margin-top:18%;
+    color:white;
+    text-align:center;
+}
+h1{
+    font-size:4vw;
+    color:rgb(229, 226, 226);
+}
+blockquote {
+    margin-top:5%;
+    margin-bottom:40%;
+    border:none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(229, 226, 226);
+    font-size:1.5vw;
+    quotes: "\201C""\201D""\2018""\2019";
+    text-align:center;
+}
+blockquote h2:before{
+    content:open-quote;
+    font-weight:bold;
+}
+blockquote h2:after{
+    content:close-quote;
+    font-weight:bold;
+}
+img:not(#doctor){
+    width:28vw;
+    height:15vw;
+    margin-left:25%;
+    margin-right:25%;
+    opacity:0.85;
+}
+h3{
+    margin-left:40%;
+    margin-right:-10%;
+}
+.top{
+    display:flex;
+    margin-left:-6%;
+}
+.bottom{
+    display:flex;
+    margin-left:-6%;
+}
+.group{
+    margin-bottom:15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgba(128, 128, 128, 0.904);
+    padding-bottom:2%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.passion{
+    color:white;
+    font-size:1.5vw;
+    text-align: center;
+    margin-bottom:4%;
+}
+#doctor{
+    width:60%;
+    height:30%;
+    margin-bottom:-6.1%;
+    opacity:0.8;
+}
+#box{
+    width:60%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-left:20%;
+    background-color:rgba(41, 41, 41, 0.877);
+    opacity:1;
+    position:relative;
+}
